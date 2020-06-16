@@ -1,4 +1,18 @@
-# DiffLoadPoc
+# Angular Differential Loading POC
+
+Testing out diff loading with Chrome (target es2015) and IE 11 (target es5)
+
+<https://elte156.github.io/Angular-Diff-Load-POC/>
+
+## Notes
+
+Built with:
+
+```bash
+npm run build -- --prod
+```
+
+<https://v8.angular.io/guide/deployment#differential-loading>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
