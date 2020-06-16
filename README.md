@@ -2,14 +2,23 @@
 
 Testing out diff loading with Chrome (target es2015) and IE 11 (target es5)
 
-<https://elte156.github.io/Angular-Diff-Load-POC/>
+Sample Website: <https://elte156.github.io/Angular-Diff-Load-POC/>
+
+## Solution
+
+In order to support IE11 with Angular 8+ and diff loading, you need to enable poly filling manually in the [src/polyfills.ts](src/polyfills.ts) file. You can either load them individually or include them all.
+
+Information:
+
+* <https://angular.io/guide/browser-support>
+* <https://github.com/zloirock/core-js>
 
 ## Notes
 
-Built with:
+Built POC dist with:
 
 ```bash
-npm run build -- --prod
+npm run build:ghpages
 ```
 
 <https://v8.angular.io/guide/deployment#differential-loading>
